@@ -202,7 +202,7 @@ p1 <- p +
 p1
 
 
-## Save the figure
+
 # ggsave("Fig.3a.tiff",scale = 1,
 #        plot = p1,
 #        width = 25, height = 18, units = "cm", dpi=320)
