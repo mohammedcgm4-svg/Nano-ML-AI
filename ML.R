@@ -16,7 +16,7 @@ h2o.removeAll() ## clean slate - just in case the cluster was already running
 
 ## Create a function to conduct the data preprocessing
 
-Dat_preprocessing <- function(Variable = "DE_Max") {
+
 ## Loading data
 data <- read.csv(file = 'data.csv') ## Read the dataset
 data <- data%>%select(Type:ZP, Variable) ## Select feature and response variables
